@@ -54,6 +54,10 @@ main{
     justify-content: center;
     align-items: center;
 }
+.ms_square.active{
+    background-color:#6495ed ;
+    color: white;
+}
 /* footer */
 footer{
     padding: 0 20px;
