@@ -1,0 +1,64 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    padding: 0 20px;
+}
+.ms_right-column{
+    display: flex;
+    align-items: center; 
+}
+.ms_left-column{
+    display: flex;
+    align-items: center;
+}
+.ms_logo{
+    width: 150px;
+    height: auto;
+}
+.ms_logo img{
+    width: 100%;
+    height: auto;
+}
+/* main */
+main{
+    width: 100%;
+    height: calc(100vh - 110px);
+    background-color: #7fffd4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ms_square-container{
+    width: 450px;
+    height: 450px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.ms_square{
+    width: calc(450px / 10);
+    height: calc(450px / 10);
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* footer */
+footer{
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+}
