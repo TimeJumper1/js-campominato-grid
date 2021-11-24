@@ -39,22 +39,44 @@ main{
     align-items: center;
 }
 .ms_square-container{
-    width: 450px;
-    height: 450px;
+    width: 500px;
+    height: 500px;
     
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
 }
-.ms_square{
-    width: calc(450px / 10);
-    height: calc(450px / 10);
+.ms_square-container h2{
+    align-self: center;
+}
+
+.ms_square_100{
+    width: calc(100% / 10);
+    height: calc(100%  / 10);
     border: 2px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.ms_square.active{
+.ms_square_81{
+    width: calc(100%  / 9);
+    height: calc(100%  / 9);
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ms_square_49{
+    width: calc(100%  / 7);
+    height: calc(100%  / 7);
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.active{
     background-color:#6495ed ;
     color: white;
 }
